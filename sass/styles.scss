@@ -1,0 +1,56 @@
+$ancho_tablero: 300px;
+$ancho_casilla: $ancho_tablero/3;
+$letra: Rockwell,Courier Bold,Courier,Georgia,Times,Times New Roman,serif;
+
+.contenedor{
+	position: relative;
+	left: 300px;
+	top: 50px;
+}
+
+.tablero{
+	position: relative;
+	width: $ancho_tablero;
+	height: $ancho_tablero;
+	overflow: auto;
+}
+
+#c0,#c1,#c2,#c3,#c4,#c5,#c6,#c7,#c8{
+	float: left;
+	width: $ancho_casilla;
+	height: $ancho_casilla;
+	line-height: 85px;
+	border: 1px solid gold;
+	font-size: 80px;
+	text-align: center;
+}
+
+h1{
+	position: relative;
+	left: 70px;
+	color: blue;
+	font-family: $letra;  
+}
+
+h2, h3{
+	float: left;
+	font-size: 20px;
+	font-family: $letra;
+}
+
+h2{
+	padding-right: 30px;
+	padding-left: 50px;
+}
+
+.datos{
+	overflow: auto;
+}
+
+#restart{
+	width: $ancho_tablero;
+	height: $ancho_tablero/10;
+	font-size: 10px;
+	color: black;
+	background-color: gold;
+}

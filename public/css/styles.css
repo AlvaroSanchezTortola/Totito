@@ -1,0 +1,44 @@
+.contenedor {
+  position: relative;
+  left: 300px;
+  top: 50px; }
+
+.tablero {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: auto; }
+
+#c0, #c1, #c2, #c3, #c4, #c5, #c6, #c7, #c8 {
+  float: left;
+  width: 100px;
+  height: 100px;
+  line-height: 85px;
+  border: 1px solid gold;
+  font-size: 80px;
+  text-align: center; }
+
+h1 {
+  position: relative;
+  left: 70px;
+  color: blue;
+  font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif; }
+
+h2, h3 {
+  float: left;
+  font-size: 20px;
+  font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif; }
+
+h2 {
+  padding-right: 30px;
+  padding-left: 50px; }
+
+.datos {
+  overflow: auto; }
+
+#restart {
+  width: 300px;
+  height: 30px;
+  font-size: 10px;
+  color: black;
+  background-color: gold; }
